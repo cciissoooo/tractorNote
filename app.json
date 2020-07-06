@@ -1,0 +1,17 @@
+{
+  "name": "TractorNote",
+  "displayName": "Tractor Note",
+  "expo": {
+    "name": "TractorNote",
+    "slug": "TractorNote",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
