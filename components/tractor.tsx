@@ -120,7 +120,12 @@ export class Tractor extends Component<Props, State> {
   };
 
   onChooseTargetSuit = (targetSuit: Suit) => {
-    this.setState({ targetSuit: targetSuit });
+    const previous = this.state.targetSuit;
+    if (previous == targetSuit) {
+      this.setState({ targetSuit: undefined });
+    } else {
+      this.setState({ targetSuit: targetSuit });
+    }
   };
 }
 

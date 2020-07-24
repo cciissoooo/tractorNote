@@ -4,8 +4,8 @@ export enum DisplayState {
 }
 
 export enum Suit {
-  HEART,
-  SPADE,
-  DIAMOND,
-  CLUB,
+  HEART = 1,
+  SPADE = 2,
+  DIAMOND = 3,
+  CLUB = 4,
 }
