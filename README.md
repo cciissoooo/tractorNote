@@ -1,2 +1,4 @@
-# tractorNote
-玩升级记牌
+# Tractor Note (升级记牌APP)
+
+
+![Screenshot](screenshot/ios.jpg)
